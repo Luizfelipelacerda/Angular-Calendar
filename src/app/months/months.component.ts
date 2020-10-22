@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-months',
   templateUrl: './months.component.html',
-  styleUrls: ['./months.component.css']
+  styleUrls: ['../../../node_modules/bootstrap/dist/css/bootstrap.min.css']
 })
 export class MonthsComponent implements OnInit {
 

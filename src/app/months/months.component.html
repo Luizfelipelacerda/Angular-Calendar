@@ -1,6 +1,8 @@
-<div class="container center" style="border: 2px dashed red">
-    <app-month class="col-4"
-    *ngFor="let month of months"
-    [month]="month"
-    ></app-month>
+<div class="container" style="border: 2px dashed red">
+    <div class="row" style="place-content: center;">
+        <app-month
+        *ngFor="let month of months"
+        [month]="month"
+        ></app-month>
+    </div>
 </div>
